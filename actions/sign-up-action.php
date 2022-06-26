@@ -4,7 +4,7 @@ require_once "actions/database.php";
 // Validation du formulaire
 if (isset($_POST['validate'])){
     // Vérifier si l'user a bien complété tous les champs
-    if(!empty($_POST['pseudo']) AND !empty($_POST['lastname']) AND !empty($_POST['firstname'])){
+    if(!empty($_POST['pseudo']) AND !empty($_POST['lastname']) AND !empty($_POST['firstname']) AND !empty($_POST['password'])){
 
         // Les données de l'user
         $user_pseudo = htmlspecialchars($_POST['pseudo']);

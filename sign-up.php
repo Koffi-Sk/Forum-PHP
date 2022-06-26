@@ -28,6 +28,10 @@
         <input type="password" class="form-control" name="password">
     </div>
     <button type="submit" class="btn btn-primary" name="validate">S'inscrire</button>
+    <br><br>
+    <a href="login.php">
+        <p>J'ai déjà un compte, je me connecte</p>
+    </a>
 </form>
 
 </html>

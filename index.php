@@ -1,0 +1,1 @@
+<?php require_once "actions/securityAction.php"; ?>
