@@ -1,4 +1,4 @@
-<?php require_once "actions/loginAction.php"; ?>
+<?php require_once "actions/users/loginAction.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include "./includes/head.php"; ?>
