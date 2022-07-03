@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once "actions/database.php";
 
 // Validation du formulaire

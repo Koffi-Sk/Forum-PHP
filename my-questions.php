@@ -1,5 +1,5 @@
-<?php require_once "actions/questions/myQuestionsAction.php"; ?>
 <?php require_once "actions/users/securityAction.php"; ?>
+<?php require_once "actions/questions/myQuestionsAction.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php'; ?>
@@ -15,16 +15,17 @@
                 ?>
         <div class="card">
             <h5 class="card-header">
-                <?= $question["titre"] ?>
+                <?= $question["titre"]; ?>
             </h5>
             <div class="card-body">
                 <p class="card-text">
-                    <?= $question["description"] ?>
+                    <?= $question["description"]; ?>
                 </p>
-                <a href="#" class="btn btn-primary">Accéder à l'article</a>
-                <a href="#" class="btn btn-warning">Modifier l'article</a>
+                <a href="#" class="btn btn-primary">Accéder à la question</a>
+                <a href="edit-question.php?id= <?= $question["id"]; ?>" class="btn btn-warning">Modifier la question</a>
             </div>
         </div>
+        <br>
         <?php
             }
         ?>

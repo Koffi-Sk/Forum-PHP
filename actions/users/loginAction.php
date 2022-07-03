@@ -1,4 +1,6 @@
 <?php
+
+session_start();
 require_once "actions/database.php";
 
 if (isset($_POST['validate'])){
