@@ -32,7 +32,9 @@
                 ?>
         <div class="card">
             <div class="card-header">
-                <?= $question["titre"] ; ?>
+                <a href="article.php?id=<?= $question["id"]; ?>">
+                    <?= $question["titre"] ; ?>
+                </a>
             </div>
             <div class="card-body">
                 <?= $question["description"] ; ?>
